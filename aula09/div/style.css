@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topo{
+    padding: 90px 20px;
+    border: 0;
+    font-size: 20px;
+}
+header{
+    background-color: #ff025a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px 70px;
+}
+.div_principal{
+    display: flex;
+    justify-content: space-between;
+border: 0;
+}
+div{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.335);
+    color: white;
+}
+img{
+    height:200px;
+    width: 200px;
+}
+body{
+    background-image:url(imagens/japao_imagem\(3200x1200\).jpg);
+    background-position: center;
+}
+.normar{
+    width: 500px;
+    font-size: 20px;
+}

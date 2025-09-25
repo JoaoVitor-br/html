@@ -1,0 +1,11 @@
+body{
+    background-image: url(imagens/Bliss_imagem\(3840x2160\).jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: bisque;
+}
