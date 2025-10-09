@@ -1,0 +1,256 @@
+body{
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    height: 100vh;
+    gap: 10px;
+
+    grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+}
+footer{
+    grid-area: footer;
+    background-color: darkorange;
+}
+nav{
+    grid-area: nav;
+    background-color: bisque;
+}
+header{
+    grid-area: header;
+    background-color: brown;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+}
+aside{
+    grid-area: aside;
+    background-color: darkmagenta;
+}
+header , footer{
+    color: white;
+}
+header,footer,main,nav,aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*1. Monte um Tabuleiro de Cores*/
+
+.tabuleiro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vh;
+
+    grid-template-areas: 
+    "tab1 tab2 tab3"
+    "tab4 tab5 tab6"
+    "tab7 tab8 tab9"
+    "tab10 tab11 tab12"
+    ;
+}
+.tab1{
+    grid-area: tab1;
+    background-color: aqua;
+}
+.tab2{
+    grid-area: tab2;
+    background-color: aquamarine;
+}
+.tab3{
+    grid-area: tab3;
+    background-color: cadetblue;
+}
+.tab4{
+    grid-area: tab4;
+    background-color: cornflowerblue;
+}
+.tab5{
+    grid-area: tab5;
+    background-color: cyan;
+}
+.tab6{
+    grid-area: tab6;
+    background-color: turquoise;
+}
+.tab7{
+    grid-area: tab7;
+    background-color: darkturquoise;
+}
+.tab8{
+    grid-area: tab8;
+    background-color: skyblue;
+}
+.tab9{
+    grid-area: tab9;
+    background-color: darkcyan;
+}
+.tab10{
+    grid-area: tab10;
+    background-color: lightblue;
+}
+.tab11{
+    grid-area: tab11;
+    background-color: paleturquoise;
+}
+.tab12{
+    grid-area: tab12;
+    background-color: mediumaquamarine;
+}
+/*2. Galeria de Fotos*/
+
+.geladeira{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 1fr;
+    grid-template-areas: 
+    "coisa1 coisa2 coisa3"
+    "coisa4 coisa5 coisa6"
+    "coisa7 coisa8 coisa9";
+    width: 100vw;
+height: 100vh;
+padding-top:50px ;
+}
+.fundo{
+     background-image: url(imagens/geladeira2.jpg);
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+}
+.geladeira img{
+    width: 100px;
+    height: 100px;
+}
+.coisa1{
+    grid-area: coisa1;
+display: flex;
+    justify-content: end;
+}
+.coisa2{
+    grid-area: coisa2;
+    display: flex;
+    justify-content: center;
+}
+.coisa3{
+    grid-area: coisa3;
+}
+.coisa4{
+    grid-area: coisa4;
+    display: flex;
+    justify-content: end;
+}
+.coisa5{
+    grid-area: coisa5;
+    display: flex;
+    justify-content: center;
+}
+.coisa6{
+    grid-area: coisa6;
+display: flex;
+    justify-content:start;
+}
+.coisa7{
+    grid-area: coisa7;
+    display: flex;
+    justify-content: end;
+}
+.coisa8{
+    grid-area: coisa8;
+    display: flex;
+    justify-content: center;
+    
+}
+.coisa9{
+    grid-area: coisa9;
+}
+
+/*3. Página de Produtos*/
+
+.Produto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas:
+"pro1 pro2 pro3"
+"pro4 pro5 pro6";
+width: 100vw;
+height: 100vh;
+gap: 10px;
+background-position: center;
+}
+
+.pro1{
+    grid-area: pro1;
+    background-image: url(imagens/papelao_vai.png);
+    background-color:floralwhite;
+background-position: center;
+text-align: center;
+
+}
+.pro2{
+    grid-area: pro2;
+        background-image: url(imagens/papelao_vai.png);
+        background-color: white;
+background-position: center;
+text-align: center;
+}
+.pro3{
+    grid-area: pro3;
+    background-image: url(imagens/papelao_vai.png);
+background-position: center;
+text-align: center;
+}
+.pro4{
+    grid-area: pro4;
+    background-image: url(imagens/papelao_vai.png);
+background-position: center;
+text-align: center;
+}
+.pro5{
+    grid-area: pro5;
+    background-image: url(imagens/papelao_vai.png);
+background-position: center;
+text-align: center;
+}
+.pro6{
+    grid-area: pro6;
+    background-image: url(imagens/papelao_vai.png);
+background-position: center;
+text-align: center;
+}
+
+
+.pro1 img{
+    width: 300px;
+    height: 300px;
+}
+.pro2 img{
+    width: 300px;
+    height: 300px;
+}
+.pro3 img{
+    width: 300px;
+    height: 300px;
+}
+.pro4 img{
+    width: 300px;
+    height: 300px;
+}
+.pro5 img{
+    width: 300px;
+    height: 300px;
+}
+.pro6 img{
+    width: 300px;
+    height: 300px;
+}
