@@ -1,0 +1,63 @@
+.gray img{
+    filter: grayscale(100%);
+}
+.sepia img{
+    filter: sepia(100%);
+}
+.inver img{
+filter: invert(100%);
+}
+.blur img{
+    filter: blur(4px);
+}
+.brig img{
+    filter: brightness(150%);
+}
+.con img{
+filter: contrast(200%);
+}
+
+.mouse:hover {
+ filter: saturate(200%);
+}
+
+.filme {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    grid-template-areas: 
+    "fim1 fim2 fim3"
+    "fim4 fim5"
+    ;
+}
+.fim1{
+    grid-area: fim1;
+    filter: blur(100%);
+    filter: grayscale(100%);
+}
+.fim2{
+    grid-area: fim2;
+    filter: blur(100%);
+    filter: grayscale(100%);
+}
+.fim3{
+    grid-area: fim3;
+    filter: blur(100%);
+    filter: grayscale(100%);
+}
+.fim4{
+    grid-area: fim4;
+    filter: blur(100%);
+    filter: grayscale(100%);
+}
+.fim5{
+    grid-area: fim5;
+    filter: blur(100%);
+    filter: grayscale(100%);
+}
+.fim1,.fim2,.fim3,.fim4,.fim5:hover{
+    filter: none;
+}
+img{
+    width:500px  ;
+}
