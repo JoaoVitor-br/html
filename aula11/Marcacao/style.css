@@ -1,0 +1,14 @@
+th, td, tr{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.exe3 th{
+    background-color: cornflowerblue;
+}
+.aprovado{
+    background-color: yellowgreen;
+}
+.reprovado{
+    background-color: crimson;
+}
