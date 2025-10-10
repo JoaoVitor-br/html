@@ -27,7 +27,7 @@ filter: contrast(200%);
     grid-template-rows:  1fr 1fr;
     grid-template-areas: 
     "fim1 fim2 fim3"
-    "fim4 fim5"
+    "fim4 fim5 fim6"
     ;
 }
 .fim1{
@@ -55,7 +55,7 @@ filter: contrast(200%);
     filter: blur(100%);
     filter: grayscale(100%);
 }
-.fim1,.fim2,.fim3,.fim4,.fim5:hover{
+.fim1:hover,.fim2:hover,.fim3:hover,.fim4:hover,.fim5:hover{
     filter: none;
 }
 img{
