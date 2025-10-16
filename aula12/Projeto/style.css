@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(15, 3, 71);
+}
+header{
+    display: flex; 
+    margin: 10px 20px;
+}
+.menu{
+    display: flex;
+    border: 1px rgb(109, 109, 255);
+    color:rgb(109, 109, 255) ;
+    transition: 1s ease;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.menu:hover{
+color: lightgreen;
+text-decoration: underline;
+}
+main{
+    padding: 20px 50px;
+}
+.texto{
+    border: 1px rgb(109,109 , 255);
+    color: yellow;
+}
+.botao button{
+    width: 20vh;
+        border:1px red;
+    font-size: 16px;
+    color: crimson;
+    box-shadow: 5px 5px 5px red;
+    transition: 2s ease;
+}
+.botao:hover button{
+width: 40vh;
+}
+.imagem img{
+    width: 250px;
+}.imagem:hover img{
+    width: 30vh;
+}
+
+
