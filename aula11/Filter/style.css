@@ -52,7 +52,7 @@ filter: contrast(200%);
 }
 .fim5{
     grid-area: fim5;
-    filter: blur(100%);
+    filter: blur(150%);
     filter: grayscale(100%);
 }
 .fim1:hover,.fim2:hover,.fim3:hover,.fim4:hover,.fim5:hover{

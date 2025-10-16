@@ -1,0 +1,83 @@
+.color button{
+    background-color: red;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+}
+.color:hover button{
+    background-color: blue;
+    color: white;
+}
+.tamanho button{
+    width: 100px;
+    transition: width 2s ease-in;
+}
+.tamanho:hover button{
+    width: 400px;
+}
+.cor2 button{
+    background-color: cyan;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+}
+.cor2:hover button{
+    background-color: crimson;
+    color: white;
+}
+.card{
+    width: 30vh;
+    height: 15vh;
+    background-color:snow;
+    box-shadow: 5px 5px  50px  black;
+    margin: 10px;
+    transition: 2s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.card:hover{
+    width: 60vh;
+    height: 30vh;
+    font-size: 4vh;
+}
+.texto{
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+.otxet{
+    font-size: 16px;
+    transition: 2s ease-in-out;
+}
+.otxet:hover{
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.imagem img{
+    width: 250px;
+    transition: 1s linear;
+}
+.imagem:hover img{
+    width: 50vh;
+padding: 20px;
+}
+.menu{
+    display: flex;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    justify-content: space-between;
+}
+.link{
+    padding: 10px;
+    background-color: crimson;
+}.link a{
+    text-decoration: none;
+    color: black;
+    transition:  2s ease-out;
+}.link:hover a{
+    color: white;
+    text-decoration: underline;
+}
+
