@@ -1,0 +1,127 @@
+@keyframes movimento{
+    0%{
+        transform: translateX(0);
+        background-color: red;
+    }
+    100%{
+        transform: translateX(100px);
+        background-color: blue;
+    }
+}
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: movimento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.camaleao{
+    width: 100px;
+    height: 100px;
+    animation-name: colores;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colores{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.botao{
+    width: 100px;
+    height: 100px;
+}
+.botao button{
+    animation-name: taobo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: crimson;
+}
+@keyframes taobo{
+    0%{
+        color: yellow;
+        background-color:crimson;
+        scale: (1);
+    }
+    100%{
+        color: crimson;
+        background-color: yellow;
+        transform:scale(2);
+    }
+}
+.textocolor h2{
+    color: deepskyblue;
+    animation: troca 2s alternate infinite;
+}
+@keyframes troca{
+    0%{
+        color:deepskyblue
+    }
+    50%{
+        color: darkviolet;
+    }
+    100%{
+        color: lawngreen;
+    }
+}
+.quadado{
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+.quadado img{
+    width: 300px;
+    animation: sor  2s infinite;
+}
+@keyframes sor{
+    0%{
+        transform: translateX(-200px)  translateY(50px);
+        filter: opacity(0);
+    }
+    50%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+        filter: opacity(1);
+    }
+    100%{
+        transform: translateX(200px) translateY(50px);
+
+        filter: opacity(0);
+    }
+}
+.nao img{
+animation: chorex 0.5s alternate infinite ;
+}
+@keyframes chorex{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scaleX(0.9) scaleY(1.1);
+    }
+    100%{
+        transform: scaleX(1.1) scaleY(0.9);
+    }
+}
+.voar h2{
+animation: voando 1s alternate infinite;
+}
+@keyframes voando{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
