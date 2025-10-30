@@ -1,0 +1,97 @@
+.ex1{
+    display: flex;
+}
+.botao1{
+    background-color: red;
+}
+.botao2{
+    background-color: cyan;
+}
+.botao3{
+    background-color: #FFB8FF;
+}
+.botao4{
+    background-color: #FFB852;
+}
+.pop{
+    margin: 0px 20px 0px 0px;
+    transition: 1s;
+}
+.pop:hover{
+    background-color: blue;
+    color: white;
+}
+div{
+    margin: 20px 30px;
+}
+.botao5{
+    background-color: red;
+}
+.botao5:active{
+    background-color: darkred;
+}
+.in1:focus{
+    border: 3px solid blue;
+    box-shadow: 0px 0px 10px purple;
+    outline: none;
+}
+.in2:focus{
+    border: 3px solid brown;
+    box-shadow: 0px 0px 10px #FFB8FF;
+    outline: none;
+}
+.in3:focus{
+    border: 3px solid darkgreen;
+    box-shadow: 0px 0px 10px crimson;
+    outline: none;
+}
+.the {
+    margin: 0px 20px 0px 0px;
+}
+.card{
+    background-color: darkblue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    transition: 2s;
+}
+.main{
+    background-image: url(imagens/luke-salkeld-neo-metal.jpg);
+    background-size:cover;
+    height: 67.2%
+}
+.card:hover{
+    transform: scale(2) translateX(100px);
+    box-shadow: 10px 10px 5px black;
+    background-color: blue;
+}
+.gmi img{
+    width: 200px;
+    transition: 1s ease-in-out;
+}
+.gmi:hover img{
+    filter: grayscale(100%);
+}
+.macos{
+    background-color: gray;
+    transition: 1s;
+    color: white;
+}
+.macos:hover {
+    background-color: blue;
+}
+.macos:active{
+    background-color: darkblue;
+    transform: scale(0.9);
+}
+.sete:focus{
+    border: 3px solid blue;
+    outline: none;
+}
+.aaa:hover button{
+    background-color: green;
+}
+.aaa:active button{ 
+    background-color: darkgreen;
+    transform: scale(0.9);
+}
