@@ -1,0 +1,43 @@
+.esquerda{
+    background:linear-gradient(#3d2a94, #3d2a94,#3d2a94, #8baaf8);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+}
+
+.cadrado-cima{
+    background-color: #160370;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cadrado-meio{
+    background: none;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}
+
+.cadrado-baixo{
+    background-color: #c5b9fc;
+    height: 30px;
+}
+.bloco{
+    background-color: #6b91eb;
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
