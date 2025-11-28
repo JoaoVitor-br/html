@@ -24,9 +24,7 @@ main{
     background-position: bottom;
     justify-content: center;
 }
-.caixa h2{
-    opacity: 1;
-}
+
 button{
     background-color: #74f2e6;
     color: white;
@@ -35,19 +33,18 @@ button{
     width: 250px;
     height: 100px;
     font-size: larger;
-    opacity: 1;
+
 }
 button a{
     text-decoration: none;
 }
 .caixa{
-    opacity: 0.7;
     border-radius: 70px;
     width: 500px;
     height: 700px;
     display: flex;
     flex-direction: column;
-    background-color: #735e97;
+    background-color: #735e97b7;
     text-align: center;
     align-items: center;
     justify-content: space-around;

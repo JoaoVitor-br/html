@@ -7,13 +7,17 @@
 }
 
 .cadrado-cima{
-    background-color: #160370;
+    background:none;
+
     color: white;
     display: flex;
     height: 50px;
     justify-items: center;
     align-items: center;
     justify-content: center;
+    text-shadow: 0px 0px 5px #74f2e6,
+    0px 0px 10px #74f2e6,
+    0px 0px 15px #74f2e6;
 }
 
 
@@ -24,20 +28,36 @@
     justify-content: center;
     justify-items: center;
     display: flex;
+    width: 90%;
+    border: 2px solid #6b91eb;
+    box-shadow: 0px 0px 5px #6b91eb,
+    0px 0px 10px #6b91eb;
+    border-radius:20px ;
+    color: #6b91eb;
     
 }
 
 .cadrado-baixo{
-    background-color: #c5b9fc;
+    background:none;
     height: 30px;
+    margin: 10px;
+}.cadrado-baixo a{
+    color: white;
+    text-shadow: 0px 0px 5px #74f2e6,
+    0px 0px 10px #74f2e6,
+    0px 0px 15px #74f2e6;
 }
 .bloco{
-    background-color: #6b91eb;
+    background:none;
+    border:5px solid ;
+    background-color: #160370;
     border-radius: 20px;
     width: 70%;
     text-align: center;
     justify-content: space-between;
     overflow: hidden;
+    justify-items: center;
+    margin: 10px 0;
 }
 
 

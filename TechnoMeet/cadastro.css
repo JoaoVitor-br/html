@@ -35,7 +35,7 @@ img{
         0px 0px 5px #ff82f7,
         0px 0px 10px #ff82f7,
         0px 0px 15px #ff82f7;
-    
+    padding-left: 100px;
 }
 .caixa{
     grid-area: hud;
@@ -53,7 +53,15 @@ img{
     height: 60vh;
     position: relative;
     border-radius: 40px;
-    
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.caixo input{
+height: 70px;
+}
+.caixo ::placeholder{
+    font-size: 20px;
 }
 h2{
     margin: 10px;
@@ -66,10 +74,12 @@ input{
     height: 30px;
     border-radius:40px ;
     font-family: "tex-normal";
+    padding-left: 8px;
+    height: 50px;
 }
 input::placeholder{
-    color: white;
-    padding-left: 8px;
+    color: rgba(255, 255, 255, 0.568);
+   
 }
 .caixa button{
     background-color: #74f2e6;
@@ -89,6 +99,15 @@ input::placeholder{
 .obs a{
     color: rgb(119, 119, 119);
     opacity: 0.7;
+    text-decoration: none;
+}
+.caixa a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+        0px 0px 5px #ff82f7,
+        0px 0px 10px #ff82f7,
+        0px 0px 15px #ff82f7;
 }
 @font-face {
     font-family: "13 misa";
