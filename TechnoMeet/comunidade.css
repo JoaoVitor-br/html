@@ -5,13 +5,14 @@
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
     grid-template-rows: 1fr 0.5fr 2fr;
     grid-template-areas: 
     "esquerda banner banner direita"
     "esquerda titu titu direita"
     "esquerda top post direita";
-    height: 93.1vh;
+    height: 94.4vh;
+    background: linear-gradient(#183f9b,#183f9b,#0f0347);
 }
 .esquer{
     grid-area: esquerda;
@@ -36,7 +37,11 @@ main{
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #3d2a94;
+    background: none;
+    color: white;
+    text-shadow: 0px 0px 5px orangered,
+        0px 0px 10px orangered,
+        0px 0px 15px orangered;
 }
 .topicos{
 grid-area: top;
@@ -47,6 +52,17 @@ width: 100%;
 grid-area: post;
 width: 100%;
     height: 100%;
+overflow: auto;   
+}
+::-webkit-scrollbar{
+     background: none; 
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+     box-shadow: 0px 0px 5px #a680ff,
+        0px 0px 10px #a680ff,
+        0px 0px 15px #a680ff;
 }
 .lado{
     background:linear-gradient(#3d2a94, #3d2a94,#3d2a94, #8baaf8);
@@ -54,6 +70,7 @@ width: 100%;
      flex-direction: column;
      align-items: center;
      text-align: center;
+     z-index: 4;
 }
 header {
     display: flex;
@@ -172,10 +189,9 @@ header img {
         0px 0px 15px #a680ff;
 }
 .demo{
-    border: 5px solid #0f0347;
-    box-shadow: 0px 0px 5px #0f0347,
-    0px 0px 10px #0f0347,
-    0px 0px 15px #0f0347;
+    box-shadow: 0px 0px 5px #a680ff,
+        0px 0px 10px #a680ff,
+        0px 0px 15px #a680ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,16 +199,24 @@ header img {
 }
 .foto{
     border-radius:360px;
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
+    width: 110px;
+    height: 110px;
+    margin-top: -60px;
+    margin-left: 50px;
     z-index: 3;
+    margin-right: 40px;
+    text-align: center;
+    color: #0f0347;
+    text-shadow: none;
 }
 .quadro{
-    width: 100%;
+    width: 90%;
     height: 100%;
     font-size: 30px;
     z-index: 2;
+    background: none;
+    border: 5px solid #a680ff;
+    border-radius: 30px;
 }
 .img{
     border-radius:360px;
@@ -212,4 +236,42 @@ header img {
     margin: 50px 10px ;
     border: 5px solid #5ab9b0;
     border-radius: 30px;
+}
+.centro{
+    font-family: "tex-normal";
+    color: #8baaf8;
+    margin: 10px;
+}
+.des{
+    font-family: "tex-titulo";
+    color: white;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    text-shadow: 0px 0px 5px #a680ff,
+        0px 0px 10px #a680ff,
+        0px 0px 15px #a680ff;
+}
+.links{
+    padding-left: 20px;
+    font-size: 20px;
+    h3{
+        color: #fff;
+        text-shadow: 0px 0px 5px crimson,
+        0px 0px 10px crimson,
+        0px 0px 15px crimson;
+        font-family: "tex-normal";
+    }
+}.tag{
+    margin: 20px 10px;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px crimson,
+        0px 0px 10px crimson,
+        0px 0px 15px crimson;
+    box-shadow: 0px 0px 5px crimson,
+        0px 0px 10px crimson,
+        0px 0px 15px crimson;;
+    font-family: "tex-normal";
 }
