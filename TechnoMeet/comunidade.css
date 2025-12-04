@@ -189,9 +189,6 @@ header img {
         0px 0px 15px #a680ff;
 }
 .demo{
-    box-shadow: 0px 0px 5px #a680ff,
-        0px 0px 10px #a680ff,
-        0px 0px 15px #a680ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,6 +233,7 @@ header img {
     margin: 50px 10px ;
     border: 5px solid #5ab9b0;
     border-radius: 30px;
+    width: 90%;
 }
 .centro{
     font-family: "tex-normal";
